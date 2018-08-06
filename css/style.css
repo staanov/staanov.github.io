@@ -37,16 +37,3 @@ a {
 	display: flex;
 	justify-content: space-around;
 }
-
-.video-submenu {
-	display: none;
-	position: absolute;
-}
-
-.video-submenu li {
-	display: block;	
-}
-
-.submenu:hover > .video-submenu {
-	display: block;
-}
