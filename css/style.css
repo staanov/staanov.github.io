@@ -2,13 +2,19 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Cuprum, Tahoma, sans-serif;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.95);
 }
 
 a {
 	text-decoration: none;
 	color: yellow;
 	font-size: 30px;
+}
+
+p {
+	color: aliceblue;
+	font-size: 20px;
+	margin: 10px;
 }
 
 header {
@@ -49,7 +55,27 @@ li {
 	margin: 10px;
 }
 
-img {
+.img-flags {
 	width: 60px;
 	margin: 10px;
 }
+
+.contacts-content {
+	display: inline-block;
+  	vertical-align: top;
+  	width: 30%;
+  	margin: 0 5px;
+ 	background-repeat: no-repeat;
+  	background-position: center top;
+  	text-transform: uppercase;
+}
+
+.telegram {
+	padding-top: 65px;
+	background-image: url("../img/tg_logo.svg");
+  }
+  
+ .email {
+	padding-top: 65px;
+	background-image: url("../img/email_logo.png");
+  }
